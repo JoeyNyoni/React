@@ -20,7 +20,7 @@ class Instructor extends React.Component {
   render() {
     console.log("Instructor Render");
     return (
-      <div>
+      <div className="text-white">
         Name: {this.props.instructor.name} <br />
         Email: {this.props.instructor.email} <br />
         Phone: {this.props.instructor.phone} <br />
